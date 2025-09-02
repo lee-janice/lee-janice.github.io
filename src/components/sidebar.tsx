@@ -40,6 +40,9 @@ const StyledInfo = styled.div`
         margin-top: -10px;
         margin-left: 10px;
         flex: 1;
+        ul {
+            margin-top: 0px !important;
+        }
     }
 
     li,
