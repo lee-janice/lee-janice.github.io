@@ -6,8 +6,8 @@ import styled from "styled-components";
 const StyledSideBar = styled.div`
     position: fixed;
     display: flex;
-    top: 20px;
     flex-direction: column;
+    top: 20px;
     width: 200px;
     max-height: 100vh;
     height: 100vh;
@@ -23,9 +23,11 @@ const StyledSideBar = styled.div`
 
     @media only screen and (max-width: 600px) {
         position: relative !important;
-        margin-bottom: 20px;
+        flex-direction: row;
+        margin-bottom: 40px;
         width: 100% !important;
         height: 100% !important;
+        border-bottom: 1px dotted white;
 
         img {
             max-width: 150px !important;
@@ -34,6 +36,12 @@ const StyledSideBar = styled.div`
 `;
 
 const StyledInfo = styled.div`
+    @media only screen and (max-width: 600px) {
+        margin-top: -10px;
+        margin-left: 10px;
+        flex: 1;
+    }
+
     li,
     ul {
         list-style: none !important;
@@ -58,24 +66,29 @@ const SideBar: React.FC = () => {
             <StyledInfo>
                 <h1>Placeholder for a name.</h1>
                 <ul>
+                    <li key={0}>
+                        <Link to="/blog" activeStyle={{ color: "darkseagreen" }}>
+                            blog
+                        </Link>
+                    </li>
                     <li key={1}>
                         <Link to="/notes" activeStyle={{ color: "darkseagreen" }}>
-                            Notes
+                            notes
                         </Link>
                     </li>
                     <li key={2}>
                         <Link to="/projects" activeStyle={{ color: "darkseagreen" }}>
-                            Projects
+                            projects
                         </Link>
                     </li>
                     <li key={3}>
                         <a href="/20250827_lee_janice_resume.pdf" target="_blank">
-                            Resume
+                            resume
                         </a>
                     </li>
                     <li key={4}>
                         <Link to="/writing" activeStyle={{ color: "darkseagreen" }}>
-                            Writing
+                            writing
                         </Link>
                     </li>
                 </ul>
