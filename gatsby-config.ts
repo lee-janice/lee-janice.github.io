@@ -9,8 +9,8 @@ const isProduction = process.env.NODE_ENV === "production";
 
 const config: GatsbyConfig = {
     siteMetadata: {
-        title: `personal-site-temp`,
-        siteUrl: `https://www.yourdomain.tld`,
+        title: `home`,
+        siteUrl: `https://lee-janice.github.io`,
     },
     // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
     // If you use VSCode you can also use the GraphQL plugin

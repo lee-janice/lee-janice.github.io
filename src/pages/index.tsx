@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 <h1 style={{ marginTop: "0px" }}>This is Janice.</h1>
                 <div>Welcome to my cozy little prismatic corner of the Internet.</div>
                 <p>
-                    I am an aspiring researcher, statistician, and occasional contemplator/meaning-seeker based in New
+                    I am an info-collector, aspiring researcher, and occasional contemplator/meaning-seeker based in New
                     York City. I'm currently working as a Data Production Specialist at the{" "}
                     <a href="https://steinhardt.nyu.edu/research-alliance" target="_blank">
                         Research Alliance for New York City Schools

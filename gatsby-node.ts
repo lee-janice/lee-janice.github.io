@@ -56,6 +56,7 @@ exports.createPages = async function ({ actions, graphql }) {
                 component: path.resolve(`./src/templates/book_note.tsx`),
                 context: {
                     slug: slug,
+                    // the author and title in the .md file need to match the author and title in the .yaml file
                     author: edge.node.frontmatter.book_note[0].author,
                     title: edge.node.frontmatter.book_note[0].title,
                 },
