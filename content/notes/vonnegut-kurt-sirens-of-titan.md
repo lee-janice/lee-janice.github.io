@@ -5,8 +5,8 @@ created: 2023-02-04
 updated: 2023-02-04
 layout: book_note
 book_note:
-    - author_first: Kurt
-    - author_last: Vonnegut
-    - title: The Sirens of Titan
+    author_first: Kurt
+    author_last: Vonnegut
+    title: The Sirens of Titan
 published: true
 ---

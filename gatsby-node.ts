@@ -52,6 +52,8 @@ exports.createPages = async function ({ actions, graphql }) {
             });
         }
         if (edge.node.frontmatter.layout == "book_note") {
+            // console.log(edge.node.frontmatter.book_note);
+            // console.log(edge.node.frontmatter.book_note.author_first);
             actions.createPage({
                 path: `${slug}`,
                 component: path.resolve(`./src/templates/book_note.tsx`),

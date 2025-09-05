@@ -5,8 +5,8 @@ created: 2021-08-27
 updated: 2021-08-27
 layout: book_note
 book_note:
-    - author_first: John
-    - author_last: Steinbeck
-    - title: East of Eden
+    author_first: John
+    author_last: Steinbeck
+    title: East of Eden
 published: true
 ---

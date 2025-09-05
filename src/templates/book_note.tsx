@@ -16,13 +16,14 @@ const StyledSubtitle = styled.h2`
 const BookNote = ({ data }: PageProps<Queries.BookNote>) => {
     const post = data.markdownRemark;
     const quotes = data.notesYaml.quotes.sort((q1: any, q2: any) => q1.page_number - q2.page_number);
+    console.log(quotes);
 
     return (
         <Layout title={post.frontmatter.title}>
             <article className="content">
                 <StyledTitle>{post.frontmatter.title}</StyledTitle>
                 <StyledSubtitle>
-                    {post.frontmatter.subtitle}&nbsp;&nbsp;⚬&nbsp;&nbsp;{post.frontmatter.updated}
+                    {post.frontmatter.subtitle}&nbsp;&nbsp;⚬&nbsp;&nbsp;{post.frontmatter.created}
                 </StyledSubtitle>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <section>

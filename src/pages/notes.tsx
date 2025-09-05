@@ -38,8 +38,8 @@ const Notes: React.FC<PageProps> = ({ data }: PageProps<Queries.NotesPage>) => {
         setPosts([...posts, p]);
     }, []);
 
-    // sort by last updated
-    posts.sort((a: any, b: any) => Date.parse(b.node.frontmatter.updated) - Date.parse(a.node.frontmatter.updated));
+    // sort by creation date
+    posts.sort((a: any, b: any) => Date.parse(b.node.frontmatter.created) - Date.parse(a.node.frontmatter.created));
 
     return (
         <main>
@@ -48,7 +48,7 @@ const Notes: React.FC<PageProps> = ({ data }: PageProps<Queries.NotesPage>) => {
                 {posts.map(({ node }) => (
                     <StyledPostListing>
                         <span style={{ color: "gray", fontFamily: "monospace", fontSize: "14px" }}>
-                            {node.frontmatter.updated}
+                            {node.frontmatter.created}
                         </span>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
@@ -70,7 +70,7 @@ export const query = graphql`
         }
         allMarkdownRemark(
             filter: { frontmatter: { published: { ne: false } }, fileAbsolutePath: { regex: "/(notes)/" } }
-            sort: { frontmatter: { updated: DESC } }
+            sort: { frontmatter: { created: DESC } }
         ) {
             edges {
                 node {
