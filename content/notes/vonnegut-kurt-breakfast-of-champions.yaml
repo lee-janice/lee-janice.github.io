@@ -1,5 +1,6 @@
 title: Breakfast of Champions
-author: Kurt Vonnegut
+author_first: Kurt
+author_last: Vonnegut
 type: novel
 quotes:
     - item:
@@ -16,17 +17,6 @@ quotes:
       importance: 3
       notes:
       tags: [beginning, meta]
-    - item:
-      quote: >
-          This is a tale of a meeting of two lonesome, skinny, fairly old white
-          men on a planet which was dying fast.
-      description: The beginning (of the beginning)
-      chapter_title:
-      chapter_number: 1
-      page_number: 16
-      importance: 4
-      notes:
-      tags: [beginning]
     - item:
       quote: >
           Here was the core of the bad ideas which Trout gave to Dwayne:
@@ -714,6 +704,7 @@ quotes:
       chapter_title:
       chapter_number: 19
       page_number: 173
+      favorite: 1
       importance: 5
       notes:
       tags: []

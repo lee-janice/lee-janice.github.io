@@ -1,7 +1,18 @@
 title: The Trial
-author: Franz Kafka
+author_first: Franz
+author_last: Kafka
 type: novel
 quotes:
+    - item:
+      quote: >
+          Someone must have slandered Josef K., for one morning, without having done 
+          anything wrong, he was arrested.
+      description:
+      chapter_title: Arrest
+      chapter_number: 1
+      page_number: 1
+      notes:
+      tags: ["beginning"]
     - item:
       quote: >
           We're lowly employees who can barely make our way through such documents, 
@@ -557,6 +568,7 @@ quotes:
       chapter_title: The End
       chapter_number: 9
       page_number: 231
+      favorite: 1
       importance: 5
       notes:
-      tags: []
+      tags: ["ending"]

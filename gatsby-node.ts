@@ -32,7 +32,8 @@ exports.createPages = async function ({ actions, graphql }) {
                             title
                             layout
                             book_note {
-                                author
+                                author_first
+                                author_last
                                 title
                             }
                         }
@@ -57,8 +58,9 @@ exports.createPages = async function ({ actions, graphql }) {
                 context: {
                     slug: slug,
                     // the author and title in the .md file need to match the author and title in the .yaml file
-                    author: edge.node.frontmatter.book_note[0].author,
-                    title: edge.node.frontmatter.book_note[0].title,
+                    author_first: edge.node.frontmatter.book_note.author_first,
+                    author_last: edge.node.frontmatter.book_note.author_last,
+                    title: edge.node.frontmatter.book_note.title,
                 },
             });
         }

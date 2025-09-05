@@ -5,7 +5,8 @@ created: 2022-04-18
 updated: 2022-05-02
 layout: book_note
 book_note:
-    - author: Lewis Carroll
-      title: Alice in Wonderland
+    - author_first: Lewis
+    - author_last: Carroll
+    - title: Alice in Wonderland
 published: true
 ---

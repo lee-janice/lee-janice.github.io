@@ -5,7 +5,8 @@ created: 2023-01-31
 updated: 2023-01-31
 layout: book_note
 book_note:
-    - author: Kurt Vonnegut
-      title: Cat's Cradle
+    - author_first: Kurt
+    - author_last: Vonnegut
+    - title: Cat's Cradle
 published: true
 ---

@@ -5,7 +5,8 @@ created: 2022-08-04
 updated: 2022-08-04
 layout: book_note
 book_note:
-    - author: Kurt Vonnegut
-      title: Slaughterhouse-Five
+    - author_first: Kurt
+    - author_last: Vonnegut
+    - title: Slaughterhouse-Five
 published: true
 ---

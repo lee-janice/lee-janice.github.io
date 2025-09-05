@@ -1,8 +1,8 @@
 ---
 title: Euthyphro by Plato
 subtitle: Reading notes on the Platonic dialogue Euthyphro
-created: 2023-05-12
-updated: 2023-05-12
+created: 2023-05-11
+updated: 2023-05-11
 layout: post
 published: true
 ---

@@ -22,12 +22,12 @@ const BookNote = ({ data }: PageProps<Queries.BookNote>) => {
             <article className="content">
                 <StyledTitle>{post.frontmatter.title}</StyledTitle>
                 <StyledSubtitle>
-                    {post.frontmatter.subtitle}&nbsp;&nbsp;⚬&nbsp;&nbsp;{post.frontmatter.created}
+                    {post.frontmatter.subtitle}&nbsp;&nbsp;⚬&nbsp;&nbsp;{post.frontmatter.updated}
                 </StyledSubtitle>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <section>
                     <h1>Quotes</h1>
-                    {quotes.map((quote) => (
+                    {quotes.map((quote: any) => (
                         <div>
                             <span className="mn">
                                 <em style={{ fontSize: "15px" }}>{quote.page_number ? quote.page_number : ""}</em>
@@ -47,7 +47,7 @@ const BookNote = ({ data }: PageProps<Queries.BookNote>) => {
 };
 
 export const query = graphql`
-    query BookNote($slug: String!, $author: String = "", $title: String = "") {
+    query BookNote($slug: String!, $author_first: String = "", $author_last: String = "", $title: String = "") {
         site {
             siteMetadata {
                 title
@@ -64,7 +64,7 @@ export const query = graphql`
                 updated(formatString: "DD [of] MMMM YYYY")
             }
         }
-        notesYaml(author: { eq: $author }, title: { eq: $title }) {
+        notesYaml(author_first: { eq: $author_first }, author_last: { eq: $author_last }, title: { eq: $title }) {
             quotes {
                 chapter_number
                 chapter_title

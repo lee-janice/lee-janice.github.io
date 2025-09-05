@@ -1,5 +1,6 @@
 title: Slaughterhouse-Five
-author: Kurt Vonnegut
+author_first: Kurt
+author_last: Vonnegut
 type: novel
 quotes:
     - item:
@@ -711,6 +712,7 @@ quotes:
       chapter_title:
       chapter_number: 7
       page_number: 84
+      favorite: 1
       importance: 3
       notes:
       tags: []
@@ -924,4 +926,4 @@ quotes:
       page_number: 112
       importance: 5
       notes:
-      tags: [end]
+      tags: [ending]

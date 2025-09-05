@@ -1,7 +1,17 @@
 title: Investigations of a Dog
-author: Franz Kafka
+author_first: Franz
+author_last: Kafka
 type: novel
 quotes:
+    - item:
+      quote: >
+          How much my life has changed, and yet how unchanged it has remained at bottom!
+      description:
+      chapter_title:
+      chapter_number:
+      page_number:
+      notes:
+      tags: [beginning]
     - item:
       quote: >
           They did not speak, they did not sing, they
@@ -357,4 +367,4 @@ quotes:
       page_number:
       importance: 4
       notes:
-      tags: []
+      tags: [ending]

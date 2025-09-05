@@ -1,5 +1,6 @@
 title: Cat's Cradle
-author: Kurt Vonnegut
+author_first: Kurt
+author_last: Vonnegut
 type: novel
 quotes:
     - item:
@@ -821,4 +822,4 @@ quotes:
       page_number:
       importance: 4
       notes:
-      tags: []
+      tags: [ending]

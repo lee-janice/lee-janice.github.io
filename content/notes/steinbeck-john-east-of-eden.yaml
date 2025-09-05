@@ -1,6 +1,16 @@
 title: East of Eden
-author: John Steinbeck
+author_first: John
+author_last: Steinbeck
 quotes:
+    - item:
+      quote: >
+          The Salinas Valley is in Northern California. It is a long narrow swale between two ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey Bay.
+      description:
+      chapter_title:
+      chapter_number: 1
+      page_number: 1
+      notes:
+      tags: ["beginning"]
     - item:
       quote: >
           "Don't you see?" he cried. "The American Standard translation *orders* men to triumph over sin, and you can call sin ignorance. The King James translation makes a promise in 'Thou shalt,' meaning that men will surely triumph over sin. But the Hebrew word, the word timshel -- 'Thou mayest' -- that gives a choice. It might be the most important word in the world. That says the way is open.  That throws it right back on a man. For if 'Thou mayest' -- it is also true that 'Thou mayest not.' Don't you see?" ...  "Now, there are many millions in their sects and churches who feel the order, 'Do thou,' and throw their weight into obedience. And there are millions more who feel predestination in 'Thou shalt.' Nothing they may do can interfere with what will be. But 'Thou mayest'! Why, that makes a man great, that gives him stature with the gods, for in his weakness and his filth and his murder of his brother he has still the great choice. He can choose his course and fight through it and win." ...  "It is easy out of laziness, out of weakness, to throw oneself into the lap of deity, saying, 'I couldn't help it; the way was set." But think of the glory of the choice! That makes a man a man. A cat has no choice, a bee must make honey. There's no godliness there. And do you know, those old gentlemen who were sliding gently down to death are too interested to die now?" ...  "Confucius tells men how they should live to have good and successful lives. But this -- this is a ladder to climb to the stars." "This is not theology. I have no bent toward gods. But I have a new love for that glittering instrument, the human soul. It is a lovely and unique thing in the universe.  It is always attacked and never destroyed -- because 'Thou mayest.'"
@@ -262,3 +272,12 @@ quotes:
       page_number: 10
       favorite: 0
       notes:
+    - item:
+      quote: >
+          Lee whispered, "Thank you, Adam —thank you, my friend. Can you move your lips? Make your lips form his name." Adam looked up with sick weariness. His lips parted and failed and tried again. Then his lungs filled. He expelled the air and his lips combed the rushing sigh. His whispered word seemed to hang in the air: "Timshel!" His eyes closed and he slept.
+      description:
+      chapter_title:
+      chapter_number: 55
+      page_number: 464
+      notes:
+      tags: ["ending"]
