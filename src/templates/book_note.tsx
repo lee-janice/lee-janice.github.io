@@ -15,8 +15,7 @@ const StyledSubtitle = styled.h2`
 
 const BookNote = ({ data }: PageProps<Queries.BookNote>) => {
     const post = data.markdownRemark;
-    const quotes = data.notesYaml.quotes.sort((q1: any, q2: any) => q1.page_number - q2.page_number);
-    console.log(quotes);
+    const quotes = data.readingYaml.quotes.sort((q1: any, q2: any) => q1.page_number - q2.page_number);
 
     return (
         <Layout title={post.frontmatter.title}>
@@ -65,7 +64,7 @@ export const query = graphql`
                 updated(formatString: "DD [of] MMMM YYYY")
             }
         }
-        notesYaml(author_first: { eq: $author_first }, author_last: { eq: $author_last }, title: { eq: $title }) {
+        readingYaml(author_first: { eq: $author_first }, author_last: { eq: $author_last }, title: { eq: $title }) {
             quotes {
                 chapter_number
                 chapter_title

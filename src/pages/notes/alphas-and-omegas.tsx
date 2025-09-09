@@ -15,8 +15,9 @@ const StyledSubtitle = styled.h2`
 
 const AOPage: React.FC<PageProps> = ({ data }: PageProps<Queries.AOPage>) => {
     // get all beginnings and endings
+    // TODO: refactor - pretty sure i can do this better with flatMap
     var quotes: any = [];
-    data.allNotesYaml.edges.forEach((note: any) => {
+    data.allReadingYaml.edges.forEach((note: any) => {
         quotes.push({
             author_first: note.node.author_first,
             author_last: note.node.author_last,
@@ -58,7 +59,7 @@ const AOPage: React.FC<PageProps> = ({ data }: PageProps<Queries.AOPage>) => {
 
 export const query = graphql`
     query AOPage {
-        allNotesYaml {
+        allReadingYaml {
             edges {
                 node {
                     quotes {
@@ -76,4 +77,4 @@ export const query = graphql`
 
 export default AOPage;
 
-export const Head: HeadFC = () => <title>testing</title>;
+export const Head: HeadFC = () => <title>Alphas and Omegas</title>;

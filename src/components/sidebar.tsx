@@ -85,11 +85,11 @@ const SideBar: React.FC = () => {
                         </Link>
                     </li>
                     <li key={3}>
-                        <a href="/20250827_lee_janice_resume.pdf" target="_blank">
-                            resume
-                        </a>
+                        <Link to="/reading" activeStyle={{ color: "darkseagreen" }}>
+                            reading
+                        </Link>
                     </li>
-                    <li key={4}>
+                    <li key={5}>
                         <Link to="/writing" activeStyle={{ color: "darkseagreen" }}>
                             writing
                         </Link>

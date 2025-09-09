@@ -1,6 +1,6 @@
 ---
 title: The Sirens of Titan by Kurt Vonnegut
-subtitle: Reading notes on The Sirens of Titan
+subtitle: Reading notes on Vonnegut's most classic sci-fi lit
 created: 2023-02-04
 updated: 2023-02-04
 layout: book_note

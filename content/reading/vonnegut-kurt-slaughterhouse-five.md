@@ -1,6 +1,6 @@
 ---
 title: Slaughterhouse-Five by Kurt Vonnegut
-subtitle: Reading notes on Slaughterhouse-Five, or The Children's Crusade
+subtitle: Reading notes on SH5, or The Children's Crusade
 created: 2022-08-04
 updated: 2022-08-04
 layout: book_note

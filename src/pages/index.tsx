@@ -28,7 +28,11 @@ const IndexPage: React.FC<PageProps> = () => {
                     <a href="https://www.pomona.edu/academics/departments/computer-science" target="_blank">
                         Pomona College
                     </a>{" "}
-                    in 2021.
+                    in 2021. Click{" "}
+                    <a href="/20250827_lee_janice_resume.pdf" target="_blank">
+                        here
+                    </a>{" "}
+                    for my full resume.
                 </p>
                 <p>
                     Outside of the regular business-things, I enjoy reading classic→modern literature, taking baby steps

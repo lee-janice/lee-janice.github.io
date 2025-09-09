@@ -9,12 +9,11 @@ published: true
 
 # Writing
 
--   _East of Eden_ by John Steinbeck
--   _Breakfast of Champions_ by Kurt Vonnegut
--   _The Trial_ by Franz Kafka
--   _The Sun, My Heart_ by Thich Nhat Hahn
+-   [_East of Eden_](../../reading/steinbeck-john-east-of-eden) by John Steinbeck
+-   [_Breakfast of Champions_](../../reading/vonnegut-kurt-breakfast-of-champions) by Kurt Vonnegut
+-   [_The Trial_](../../reading/kafka-franz-the-trial) by Franz Kafka
+-   [_The Sun My Heart_](../../reading/hahn-thich-nhat-the-sun-my-heart) by Thich Nhat Hahn
 -   _The Power Broker_ by Robert Caro
--   _Pedagogy of the Oppressed_ by Paulo Freire
 -   [i carry your heart with me(i carry it in] by e.e. cummings
 
 # Places

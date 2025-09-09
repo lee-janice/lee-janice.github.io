@@ -94,6 +94,7 @@ quotes:
       chapter_number: 8
       page_number: 117
       importance: 3
+      favorite: 1
       notes:
       tags: ["love"]
     - item:
@@ -129,6 +130,6 @@ quotes:
       description:
       chapter_title: Alice's Evidence
       chapter_number: 12
-      page_number:
+      page_number: 160
       notes:
       tags: ["ending"]

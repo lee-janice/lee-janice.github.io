@@ -1,6 +1,6 @@
 ---
 title: The Apology by Plato
-subtitle: Reading notes on The Apology
+subtitle: Reading notes on Socrates' non-apology
 created: 2023-05-12
 updated: 2023-05-12
 layout: post

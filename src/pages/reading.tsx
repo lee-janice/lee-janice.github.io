@@ -17,40 +17,12 @@ const StyledPostListing = styled.div`
     }
 `;
 
-const Notes: React.FC<PageProps> = ({ data }: PageProps<Queries.NotesPage>) => {
+const Reading: React.FC<PageProps> = ({ data }: PageProps<Queries.ReadingPage>) => {
     const [posts, setPosts] = React.useState(data.allMarkdownRemark.edges);
 
     React.useEffect(() => {
-        // add custom pages to notes list
-        const custom = [
-            {
-                node: {
-                    fields: {
-                        slug: "/notes/alphas-and-omegas/",
-                    },
-                    frontmatter: {
-                        title: "Alphas (A) and Omegas (Ω)",
-                        subtitle: "All that can be said in a beginning and an end",
-                        created: "04 Sep 2025",
-                        updated: "04 Sep 2025",
-                    },
-                },
-            },
-            {
-                node: {
-                    fields: {
-                        slug: "/notes/letters-to-live-by/",
-                    },
-                    frontmatter: {
-                        title: "Letters to live by",
-                        subtitle: "A small selection of words well-strung",
-                        created: "06 Sep 2025",
-                        updated: "06 Sep 2025",
-                    },
-                },
-            },
-        ];
-        setPosts([...posts, ...custom]);
+        // add custom pages to list
+        setPosts([...posts]);
     }, []);
 
     // sort by creation date
@@ -77,14 +49,14 @@ const Notes: React.FC<PageProps> = ({ data }: PageProps<Queries.NotesPage>) => {
 };
 
 export const query = graphql`
-    query NotesPage {
+    query ReadingPage {
         site {
             siteMetadata {
                 title
             }
         }
         allMarkdownRemark(
-            filter: { frontmatter: { published: { ne: false } }, fileAbsolutePath: { regex: "/(notes)/" } }
+            filter: { frontmatter: { published: { ne: false } }, fileAbsolutePath: { regex: "/(reading)/" } }
             sort: { frontmatter: { created: DESC } }
         ) {
             edges {
@@ -105,6 +77,6 @@ export const query = graphql`
     }
 `;
 
-export default Notes;
+export default Reading;
 
-export const Head: HeadFC = () => <title>notes</title>;
+export const Head: HeadFC = () => <title>reading</title>;
