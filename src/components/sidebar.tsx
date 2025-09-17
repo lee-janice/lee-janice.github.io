@@ -67,7 +67,8 @@ const SideBar: React.FC = () => {
                 />
             </a>
             <StyledInfo>
-                <h1>Placeholder for a name.</h1>
+                {/* <h1>Placeholder for a name.</h1> */}
+                <h1>the weight & de lightness</h1>
                 <ul>
                     <li key={0}>
                         <Link to="/blog" activeStyle={{ color: "darkseagreen" }}>
