@@ -26,3 +26,7 @@ It still rings true, despite the fall<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no mind to mourn, no matter cost:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;’tis better to have loved and lost<br>
 than never to have loved at all.<br>
+
+---
+
+See: [In Memoriam A. H. H. OBIIT MDCCCXXXIII: 27](https://www.poetryfoundation.org/poems/45336/in-memoriam-a-h-h-obiit-mdcccxxxiii-27) by Alfred, Lord Tennyson.

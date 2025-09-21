@@ -24,3 +24,7 @@ and the one act left is for one to feel.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though Winter will return sure as the tide,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as such is Love, and such is Life besides.
+
+---
+
+See: the [Shakespearean sonnet](https://www.poetryfoundation.org/education/glossary/shakespearean-sonnet), [What's in a name](https://en.wikipedia.org/wiki/A_rose_by_any_other_name_would_smell_as_sweet), [What Is the Measure](https://www.poetryfoundation.org/poetrymagazine/poems/160244/what-is-the-measure) by Donika Kelly.

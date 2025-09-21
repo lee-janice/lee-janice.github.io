@@ -22,3 +22,7 @@ but solace does lie in the certainty!<br>
 _Hide from the light, enjoy filth’s regime!_<br>
 And through one’s beady eyes, though beetled be,<br>
 this life still does seem a Beauty supreme.
+
+---
+
+See: the [Petrarchan sonnet](https://en.wikipedia.org/wiki/Petrarchan_sonnet), [_East of Eden_](../../reading/steinbeck-john-east-of-eden) by John Steinbeck, _The Metamorphosis_ by Franz Kafka.
