@@ -49,4 +49,4 @@ into that good night.
 
 ---
 
-See: the [Sapphic stanza](https://en.wikipedia.org/wiki/Sapphic_stanza), Meditations by Marcus Aurelius, [Do not go gentle into that good night](https://en.wikipedia.org/wiki/Do_not_go_gentle_into_that_good_night) by Dylan Thomas, [strange attractors](https://en.wikipedia.org/wiki/Attractor).
+See: the [Sapphic stanza](https://en.wikipedia.org/wiki/Sapphic_stanza), [_Meditations_](../../reading/aurelius-marcus-meditations) by Marcus Aurelius, [Do not go gentle into that good night](https://en.wikipedia.org/wiki/Do_not_go_gentle_into_that_good_night) by Dylan Thomas, [strange attractors](https://en.wikipedia.org/wiki/Attractor).
