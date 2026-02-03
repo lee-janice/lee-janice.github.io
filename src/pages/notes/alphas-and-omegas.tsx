@@ -49,7 +49,7 @@ const AOPage: React.FC<PageProps> = ({ data }: PageProps<Queries.AOPage>) => {
                                     <br />
                                     <hr />
                                 </div>
-                            ) : null
+                            ) : null,
                         )}
                 </section>
             </article>

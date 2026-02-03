@@ -15,7 +15,13 @@ const StyledSubtitle = styled.h2`
 
 const BookNote = ({ data }: PageProps<Queries.BookNote>) => {
     const post = data.markdownRemark;
-    const quotes = data.readingYaml.quotes.sort((q1: any, q2: any) => q1.page_number - q2.page_number);
+    let quotes = data.readingYaml.quotes;
+    if (quotes.page_number) {
+        quotes = quotes.sort((q1: any, q2: any) => q1.page_number - q2.page_number);
+    }
+    if (quotes.progress) {
+        quotes = quotes.sort((q1: any, q2: any) => q1.progress - q2.progress);
+    }
 
     return (
         <Layout title={post.frontmatter.title}>
@@ -27,19 +33,39 @@ const BookNote = ({ data }: PageProps<Queries.BookNote>) => {
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <section>
                     <h1>Quotes</h1>
-                    {quotes.map((quote: any) => (
-                        <div>
-                            <span className="mn">
-                                <em style={{ fontSize: "15px" }}>{quote.page_number ? quote.page_number : ""}</em>
-                                {quote.page_number ? <br></br> : <></>}
-                                <span>{quote.description ? quote.description : ""}</span>
-                                {quote.description ? <br></br> : <></>}
-                                <span style={{ color: "gray" }}>{quote.notes ? quote.notes : ""}</span>
-                            </span>
-                            <p>{quote.quote}</p>
-                            <br />
-                        </div>
-                    ))}
+                    <hr style={{ borderTop: "dotted 1px;" }} />
+                    <br />
+                    {quotes
+                        .filter((quote: any) => quote.quote !== null)
+                        .map((quote: any) => (
+                            <div>
+                                <span className="mn">
+                                    {/* <em style={{ fontSize: "15px" }}>
+                                        {quote.page_number ? "p." + quote.page_number : ""}
+                                    </em> */}
+                                    {/* {quote.page_number ? <br></br> : <></>} */}
+                                    <b>
+                                        <em>
+                                            {quote.chapter_title ? quote.chapter_title : ""}
+                                            {quote.chapter_title && quote.page_number ? ", " : ""}
+                                            {quote.page_number ? "p." + quote.page_number : ""}
+                                        </em>
+                                    </b>
+                                    {quote.chapter_title || quote.page_number ? <br></br> : <></>}
+                                    <span>{quote.description ? quote.description : ""}</span>
+                                    {quote.description ? <br></br> : <></>}
+                                    <span style={{ color: "gray" }}>{quote.notes ? quote.notes : ""}</span>
+                                </span>
+                                <p
+                                    dangerouslySetInnerHTML={{
+                                        __html: quote.quote.replace(/\n/g, "<br><br>"),
+                                    }}
+                                />
+                                <br />
+                                <hr style={{ borderTop: "dotted 1px;" }} />
+                                <br />
+                            </div>
+                        ))}
                 </section>
             </article>
         </Layout>
