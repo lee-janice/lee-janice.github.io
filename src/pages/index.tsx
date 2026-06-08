@@ -29,7 +29,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         Pomona College
                     </a>{" "}
                     in 2021. Click{" "}
-                    <a href="/20251023_lee_janice_resume.pdf" target="_blank">
+                    <a href="/20260605_lee_janice_resume.pdf" target="_blank">
                         here
                     </a>{" "}
                     for my full resume.
