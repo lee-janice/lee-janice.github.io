@@ -14,6 +14,7 @@ The following recipe was adapted from the [Coconut-miso salmon curry](https://co
 
 - 2 tbsp avocado oil
 - 1 medium red or yellow onion, halved and sliced
+- (optional) Cherry tomatoes
 - 3-5 garlic cloves, thinly sliced
 - 2 tbsp minced ginger
 - Salt and black pepper
@@ -32,7 +33,7 @@ The following recipe was adapted from the [Coconut-miso salmon curry](https://co
 
 # 🔪 Instructions
 
-1. In a medium or large pot, heat oil over medium. Add onion, ginger, and garlic, and season with salt and pepper. Cook, stirring occasionally until softened (~3 min). Add miso and cook, stirring frequently, until lightly caramelized (~2 min).
+1. In a medium or large pot, heat oil over medium. Add onion, cherry tomatoes (optional), ginger, and garlic, and season with salt and pepper. Cook, stirring occasionally until softened (~3 min). Add miso and cook, stirring frequently, until lightly caramelized (~2 min).
 2. Add coconut milk, water, and a splash of fish sauce, and bring to a boil over high heat. Cook until liquid is slightly reduced (~5-10 min).
 3. Stir in salmon, reduce heat to medium-low and simmer gently until just cooked through (~5 min). Turn heat off and stir in spinach and lime juice.
 4. Add curry to rice or tofu base. Top with cilantro and/or basil, and Enjoy ◡̈

@@ -24,12 +24,18 @@ const Projects: React.FC<PageProps> = ({ data }: PageProps<Queries.ProjectsPage>
         <main>
             <SideBar />
             <div className="content" style={{ maxWidth: "800px" }}>
+                {/* NYC PTA Fundraising Analysis */}
+                <StyledPostListing>
+                    <a href="https://github.com/lee-janice/nyc_school_funding" target="_blank">
+                        Private Money, Public Inequality
+                    </a>
+                    &nbsp;&nbsp;
+                    <span style={{ color: "gray" }}>
+                        An analysis of PTA fundraising and expenditure data in NYC public schools
+                    </span>
+                </StyledPostListing>
                 {/* Wikigraph */}
                 <StyledPostListing>
-                    {/* <span style={{ color: "gray", fontFamily: "monospace", fontSize: "14px" }}>
-                        {node.frontmatter.created}
-                    </span> */}
-                    {/* &nbsp;&nbsp;&nbsp;&nbsp; */}
                     <a href="https://wikigraph.netlify.app/" target="_blank">
                         Wikigraph
                     </a>

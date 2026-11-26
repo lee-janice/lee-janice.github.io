@@ -10,8 +10,8 @@ const IndexPage: React.FC<PageProps> = () => {
                 <h1 style={{ marginTop: "0px" }}>This is Janice.</h1>
                 <div>Welcome to my cozy little prismatic corner of the Internet.</div>
                 <p>
-                    I am an info-collector, aspiring researcher, and occasional contemplator/meaning-seeker based in New
-                    York City. I'm currently working as a Data Production Specialist at the{" "}
+                    I am an info-collector, aspiring researcher, and occasional contemplator based in New York City. I'm
+                    currently working as a Data Production Specialist at the{" "}
                     <a href="https://steinhardt.nyu.edu/research-alliance" target="_blank">
                         Research Alliance for New York City Schools
                     </a>{" "}
@@ -23,7 +23,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     >
                         Applied Statistics for Social Science Research (A3SR)
                     </a>{" "}
-                    @ NYU Steinhardt, with an expected graduation date (cross your fingers) of May 2026. I received my
+                    @ NYU Steinhardt, with an expected graduation date (cross your fingers) of Dec 2026. I received my
                     BA in Computer Science from{" "}
                     <a href="https://www.pomona.edu/academics/departments/computer-science" target="_blank">
                         Pomona College
